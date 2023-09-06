@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <style>
+    .outertable{
+      border-collapse: collapse;
+      border: none;
+    }
+    .innertable{
+      border-collapse: collapse;
+    }
+
+    .lefttable{
+      width: 100%;
+      
+    }
+    .righttable{
+      width: 75%;
+
+    }
+    .home{
+      background-color: yellow;
+      color: white;
+      padding-left: 20px;   
+      
+    }
+    .info{
+      color: blue;
+      background-color: lightskyblue;
+      padding-left: 20px;
+    }
+    .home2{
+      background-color: grey;
+      color: white;
+  
+    }
+    .info2{
+      color: blue;
+      background-color: lightgray;
+    }
+    .info3{
+      color: lightgray;
+      background-color: lightgray;
+    }
+  </style>
+  <table  border="1" width="100%" class="outertable">
+    <tr>
+      <td>
+        <p>Vertical Navigation Bar</p>
+        <table border="1" width="75%" class="innertable" cellpadding="4px">
+          <tr>
+            <td>
+              <table border="0" class="lefttable" cellspacing="0px">
+                <tr>
+                  <td class="home">Home</td>
+                </tr>
+                <tr>
+                  <td class="info">Java</td>
+                </tr>
+                <tr>
+                  <td class="info">CSS</td>
+                </tr>
+                <tr>
+                  <td class="info">HTML</td>
+                </tr>
+                <tr>
+                  <td class="info">Bootstrap</td>
+                </tr>
+      
+              </table>
+
+            </td>
+          </tr>
+          
+        
+      </table>
+        
+      </td>
+      <td>
+        <p>Horizontal Navigation Bar</p>
+        <table table border="1" width="75%" class="innertable" cellpadding="4px" >
+          <table border="1" class="righttable">
+            <tr>
+      
+                <tr>
+                  <td class="home2"><center>Home</center></td>
+                  <td class="info2"><center>Java</center></td>
+                  <td class="info2"><center>HTML</center></td>
+                  <td class="info2"><center>CSS</center></td>
+                  <td class="info3"><center>CSS</center></td>
+                </tr>
+
+            
+            </tr>
+          </table>
+        
+        </table>
+
+      </td>
+    </tr>
+    </table>  
+</body>
+</html>

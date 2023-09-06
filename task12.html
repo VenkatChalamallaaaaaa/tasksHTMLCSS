@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task4</title>
+
+
+</head>
+
+<body>
+
+  <style>
+    body{
+      background-color: #a22b55;
+    }
+    td{
+      color: white;
+    }
+    .info{
+      padding-top: 10px;
+      background-color: #75203f;
+    }
+    .position{
+      padding-left: 450px;
+
+    }
+    #about{
+      height: 40px;
+
+    }
+    .register{
+      width: 250px;
+      height: 40px;
+      color: #75203f;
+      font-weight: bold;
+      font-size: large;
+    }
+  </style>
+  <div class="position">
+    <table  width="40%"  cellspacing="10px" class="info"  >
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" name="FullName" placeholder="your name"></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="text" name="Username" placeholder="your email"></td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td>Phone Number:</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <input type="radio" id="html" name="gender" value="Male">
+          <label for="html">Male</label>
+          <input type="radio" id="css" name="gender" value="Female">
+          <label for="css">Female</label>
+          <input type="radio" id="javascript" name="gender" value="Other">
+          <label for="javascript">Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td>language</td>
+        <td>
+          <label for="gender"></label>
+          <select name="gender">
+            <option value="Male">select language</option>
+            <option value="Female">English</option>
+            <option value="Other">Other</option>
+          </select>
+          <tr>
+            <td>Zip Code:</td>
+            <td><input type="text" name="code"></td>
+          </tr>
+
+          <tr>
+            <td>About:</td>
+            <td><input type="text" name="code" id="about" placeholder="Write about yourself"></td>
+          </tr>
+        
+        
+        
+        </td>
+      </tr>
+      <tr>
+        
+        <td colspan="2"><center><button class="register">Register</button></center></td>
+      </tr>
+    </table>
+  </div>
+  
+</body>
+</html>
